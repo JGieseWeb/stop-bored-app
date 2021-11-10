@@ -1,0 +1,7 @@
+.midbody {
+  padding-top: 2em;
+  background-color: var(--primary-color);
+}
+h1 {
+  color: var(--secondary-color);
+}
