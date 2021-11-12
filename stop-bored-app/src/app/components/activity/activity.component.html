@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+<div class="container-activity">
+  <ng-template>
+    <app-activity-items
+      *ngfor="let activity of activitys"
+      [activity]="activity"
+      >{{ activity }}</app-activity-items
+    >
+  </ng-template>
+</div>
